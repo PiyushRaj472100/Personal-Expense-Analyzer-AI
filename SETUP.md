@@ -96,7 +96,7 @@ The frontend will run on `http://localhost:3000`
 **Issue: MongoDB connection error**
 - Make sure MongoDB is running: `mongod` or check MongoDB service
 - Verify MONGO_URI in `.env` file is correct
-- For MongoDB Atlas, use the connection string format: `mongodb+srv://username:password@cluster.mongodb.net/`
+- For MongoDB Atlas, use the connection string format: `mongodb+srv://`
 
 **Issue: JWT_SECRET error**
 - Make sure `.env` file exists in `python/backend/` directory
